@@ -3,6 +3,6 @@
   <name>RJD Home Page App</name>
   <description>This is where you'll find all my apps.</description>
 
-  <icon src="icon.png" />
-  <splash src="splash.png" />
+  <!-- icon src="icon.png" / -->
+  <!-- splash src="splash.png" /-->
 </widget>
