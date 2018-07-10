@@ -2,6 +2,9 @@
 <widget id="rjd.home.app" xmlns="http://www.w3.org/ns/widgets">
   <name>RJD Home</name>
   <description>This is where you'll find all my apps.</description>
+  
+<plugin name="cordova-plugin-whitelist" source="npm" spec="1.0.0" />  
+  
 <!-- Allow links to example.com -->
 <allow-navigation href="https://thewriteback.com/*" />
 <allow-navigation href="*" />
