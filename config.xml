@@ -1,8 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="rjd.home.app" xmlns="http://www.w3.org/ns/widgets">
-  <name>RJD Home Page App</name>
+  <name>RJD Home</name>
   <description>This is where you'll find all my apps.</description>
-
+<!-- Allow links to example.com -->
+<allow-navigation href="https://thewriteback.com/*" />
+<allow-navigation href="*" />
   <!-- icon src="icon.png" / -->
   <!-- splash src="splash.png" /-->
 </widget>
