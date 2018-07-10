@@ -19,7 +19,7 @@
     specific language governing permissions and limitations
     under the License.
 -->
-<html style='width:100%; height:100%;'>
+<html>
 
 <head>
     <meta charset="utf-8" />
@@ -40,16 +40,21 @@
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <title>RJD Home</title>
-    
-   
-    
 </head>
 
-<body style='width:100%; height:100%;'>         
-  <iframe src="https://thewriteback.com/rjd/u/admin/libraries/rjd_lib/rjd_lib/rjd_apps/rjd_home/" style="width:100%; height:100%;">
-  <!-- frameset>
-    <frame id='rjd_home_frame' src="https://thewriteback.com/rjd/u/admin/libraries/rjd_lib/rjd_lib/rjd_apps/rjd_home/"  frameborder='0' marginheight="0" marginwidth="0" width='100%' height='100%' />
-  </frameset -->    
+<body>
+    <div class="app">
+        <h1>PhoneGap - rjd.home.app 0.003</h1>
+        <div id="deviceready" class="blink">
+            <p class="event listening">Connecting to Device</p>
+            <p class="event received">Device is Ready</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
 </body>
 
 </html>
